@@ -1,16 +1,9 @@
+import { sections } from '@/lib/config'
 import { cn } from '@/lib/utils'
 import { Squash as Hamburger } from 'hamburger-react'
 import { MoveRightIcon } from 'lucide-react'
 import Link from 'next/link'
 import { useState } from 'react'
-
-export const sections = [
-  { name: 'Home', href: '#home' },
-  { name: 'About me', href: '#about' },
-  { name: 'Services', href: '#services' },
-  { name: 'Projects', href: '#projects' },
-  { name: 'Testimonials', href: '#testimonials' },
-]
 
 export default function Header() {
   const [open, setOpen] = useState(false)

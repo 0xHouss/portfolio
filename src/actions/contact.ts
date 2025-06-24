@@ -1,7 +1,6 @@
 "use server";
 
 import { FormState, fromErrorToFormState, toFormState } from "@/lib/form-state";
-import { EmbedBuilder, WebhookClient } from "discord.js";
 import { z } from "zod";
 
 const submitContactFormSchema = z.object({

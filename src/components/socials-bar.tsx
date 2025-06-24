@@ -1,15 +1,14 @@
-import { socials } from '@/app/page'
+import { socials } from '@/lib/config'
 import { MailIcon } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
 
 export default function SocialsBar() {
   return (
     <div className="flex justify-between items-center h-20 px-3 lg:px-6 py-5">
       <p className="text-[10px] lg:text-sm font-medium text-foreground/50">
         “if we know we do, <br />
-        if we don't we learn.”
+        if we don&apos;t we learn.”
       </p>
 
       <div className='flex gap-2'>

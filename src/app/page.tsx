@@ -11,15 +11,6 @@ import Projects from "@/layouts/projects-section";
 import Services from "@/layouts/services-section";
 import Testimonials from "@/layouts/testimonials-section";
 
-export const socials = [
-  { name: 'X', href: 'https://x.com/0xHouss' },
-  { name: 'GitHub', href: 'https://github.com/0xHouss' },
-  { name: 'Discord', href: 'https://discord.gg/0xHouss' },
-  // { name: 'LinkedIn', href: 'https://www.linkedin.com/in/houssine-moussaoui/' },
-  // { name: 'Instagram', href: 'https://www.instagram.com/0xhouss/' },
-  { name: 'Fiverr', href: 'https://www.fiverr.com/houss_dev' },
-]
-
 export default function Home() {
   useCenteredScroll()
 

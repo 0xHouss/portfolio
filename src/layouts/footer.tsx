@@ -1,7 +1,6 @@
-import { socials } from "@/app/page";
+import { sections, socials } from "@/lib/config";
 import Image from "next/image";
 import Link from "next/link";
-import { sections } from "./header";
 
 export default function Footer() {
   return (
@@ -11,7 +10,7 @@ export default function Footer() {
           <div className="flex items-start justify-between flex-grow w-full">
             <p className="text-xl">
               “if we know we do, <br />
-              if we don't we learn.”
+              if we don&apos;t we learn.”
             </p>
 
             <div className="flex flex-col gap-4">
@@ -95,7 +94,7 @@ export default function Footer() {
         <div className="flex flex-col items-start justify-between flex-grow gap-10 z-20 sm:flex-row md:gap-20 xl:gap-36 2xl:gap-56">
           <p className="text-xl">
             “if we know we do, <br />
-            if we don't we learn.”
+            if we don&apos;t we learn.”
           </p>
 
           <div className="flex justify-between w-full z-20">
