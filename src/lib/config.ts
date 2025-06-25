@@ -31,7 +31,7 @@ export const testimonials = [
     role: "Recurring Client",
   },
   {
-    name: "Oggy",
+    name: "Kevyn SG.",
     content: "I just want to say that working with Houssam was a great experience. He helped me a lot and delivered outstanding work. He responds quickly and supports you throughout the entire process. Thank you again, Houssam!",
     role: "Founder of Imperial Cup Community",
   },
