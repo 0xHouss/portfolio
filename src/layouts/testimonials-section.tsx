@@ -30,9 +30,9 @@ export default function Testimonials() {
         ]}
         className="w-full"
       >
-        <CarouselContent className="-ml-8">
+        <CarouselContent className="-ml-4">
           {testimonials.map((testimonial, index) => (
-            <CarouselItem key={`${testimonial.name}-${index}`} className={cn("basis-4/6 pl-8 transition-all", { "opacity-70": current !== index + 1 })}>
+            <CarouselItem key={`${testimonial.name}-${index}`} className={cn("basis-5/6 pl-4 transition-all", { "opacity-70": current !== index + 1 })}>
               <TestimonialCard {...testimonial} />
             </CarouselItem>
           ))}

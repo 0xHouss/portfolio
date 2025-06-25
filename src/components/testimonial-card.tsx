@@ -17,7 +17,7 @@ export default function TestimonialCard({ name, content, role }: TestimonialCard
       />
       <p className="text-sm lg:text-lg font-medium mb-4">“{content}”</p>
       <div className="flex items-center gap-3 mt-auto">
-        <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center">
+        <div className="w-10 h-10 aspect-square lg:w-12 lg:h-12 rounded-full bg-primary flex items-center justify-center">
           <span className="text-background font-semibold">{name.split(" ").map(n => n[0]).join("")}</span>
         </div>
         <div>
