@@ -41,7 +41,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div id="projects" className="max-w-5xl m-auto px-6 lg:px-0 py-10 flex flex-col gap-5">
+    <section id="projects" className="max-w-5xl m-auto px-6 lg:px-0 py-10 flex flex-col gap-5">
       <h2 className="text-2xl font-semibold">What have I <span className="text-primary">worked</span> on ?</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -56,6 +56,6 @@ export default function Projects() {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   )
 }

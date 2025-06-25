@@ -17,7 +17,7 @@ const services = [
 
 export default function Services() {
   return (
-    <div id="services" className="max-w-5xl px-6 lg:px-0 m-auto py-10 flex flex-col items-center gap-5">
+    <section id="services" className="max-w-5xl px-6 lg:px-0 m-auto py-10 flex flex-col items-center gap-5">
       <h2 className="text-2xl font-semibold">What do I <span className="text-primary">offer</span> ?</h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 w-full">
@@ -25,6 +25,6 @@ export default function Services() {
           <ServiceCard key={index} index={index+1} title={service.title} description={service.description} />
         )}
       </div>
-    </div>
+    </section>
   )
 }

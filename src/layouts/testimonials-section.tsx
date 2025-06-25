@@ -20,7 +20,7 @@ export default function Testimonials() {
   }, [api])
 
   return (
-    <div id="testimonials" className="max-w-5xl m-auto px-6 lg:px-0 py-10 flex flex-col gap-5 items-center">
+    <section id="testimonials" className="max-w-5xl m-auto px-6 lg:px-0 py-10 flex flex-col gap-5 items-center">
       <h2 className="text-2xl font-semibold">What do they <span className="text-primary">say</span> about me ?</h2>
 
       <Carousel
@@ -38,7 +38,7 @@ export default function Testimonials() {
           ))}
         </CarouselContent>
       </Carousel>
-    </div>
+    </section>
   )
 }
 
